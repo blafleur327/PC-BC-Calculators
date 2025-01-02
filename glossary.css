@@ -1,0 +1,21 @@
+.hoverable {
+    border-width:1px;
+    border-radius:1px;
+    border-color:grey;
+    border-style:inset;
+    background-color:rgba(179, 200, 255, 0.559);
+    max-width: 20%;
+    cursor: pointer;
+}
+
+.hoverable:hover > .hidden {
+    display:block;
+}
+
+.hidden {
+    background-color:rgba(211, 245, 241, 0.645);
+    border-radius: 1px;
+    border-color:black;
+    border-style:groove;
+    display:none;
+}

@@ -1,0 +1,18 @@
+#display {
+    border-radius:1px;
+    border-style:groove;
+    border-color:grey;
+    display: flex;
+    flex-direction:column;
+    max-width:50%;
+}
+
+div {
+    padding:1px;
+    max-width:100%;
+}
+
+#drawings {
+    display: flex;
+    flex-direction: row;
+}
