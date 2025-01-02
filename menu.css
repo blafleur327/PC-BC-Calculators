@@ -3,3 +3,7 @@ div {
     flex-direction: column;
     padding: 1px;
 }
+
+a {
+    max-width: fit-content;
+}
